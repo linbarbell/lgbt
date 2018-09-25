@@ -1,7 +1,8 @@
 const TOKEN = 'NDkzOTU1NDAyMTI4NDI0OTYw.DosfXw.UZe5O0Clnoi5VZtgTCWhJWHXBVs';
 const Commando = require('discord.js-commando');
+const http = require('http');
 const bot = new Commando.Client({
-    commandPrefix: '.'
+    commandPrefix: ':'
 });
 
 bot.registry
@@ -16,3 +17,9 @@ bot.on('ready', function(){
 })
 
 bot.login(TOKEN)
+
+http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.write('Baby shark do do do do');
+    res.end();
+}).listen(process.env.PORT || 5000);
