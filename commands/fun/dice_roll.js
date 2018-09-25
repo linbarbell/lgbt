@@ -6,7 +6,7 @@ class DiceRollCommand extends commando.Command
     {
         super(client,{
             name: 'roll',
-            group: 'simple',
+            group: 'fun',
             memberName: 'roll',
             description: 'Rolls a dice.'
         });

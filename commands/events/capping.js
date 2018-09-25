@@ -7,9 +7,9 @@ class CappingCommand extends commando.Command
     {
         super(client,{
             name: 'capping',
-            group: 'simple',
+            group: 'events',
             memberName: 'capping',
-            description: 'Ranks.'
+            description: 'Capping event details'
         });
     }
 

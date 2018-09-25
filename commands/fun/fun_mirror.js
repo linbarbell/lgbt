@@ -6,7 +6,7 @@ class FunMirrorCommand extends commando.Command
     {
         super(client,{
             name: 'fun_mirror',
-            group: 'simple',
+            group: 'fun',
             memberName: 'fun_mirror',
             description: 'Looks at your reflection in a mirror.'
         });

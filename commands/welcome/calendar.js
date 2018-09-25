@@ -7,7 +7,7 @@ class CalendarCommand extends commando.Command
     {
         super(client,{
             name: 'calendar',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'calendar',
             description: 'Events calendar.'
         });

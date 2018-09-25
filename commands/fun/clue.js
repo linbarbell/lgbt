@@ -7,7 +7,7 @@ class ClueCommand extends commando.Command
     {
         super(client,{
             name: 'clue',
-            group: 'simple',
+            group: 'fun',
             memberName: 'clue',
             description: 'Tags Hayley.'
         });

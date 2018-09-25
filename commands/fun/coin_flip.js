@@ -6,7 +6,7 @@ class CoinFlipCommand extends commando.Command
     {
         super(client,{
             name: 'flip',
-            group: 'simple',
+            group: 'fun',
             memberName: 'flip',
             description: 'Flips a coin, landing on heads or tails.'
         });

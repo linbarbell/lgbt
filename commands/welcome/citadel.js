@@ -7,7 +7,7 @@ class CitadelCommand extends commando.Command
     {
         super(client,{
             name: 'citadel',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'citadel',
             description: 'Clan citadel explained.'
         });

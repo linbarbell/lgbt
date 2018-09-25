@@ -7,7 +7,7 @@ class TwitterCommand extends commando.Command
     {
         super(client,{
             name: 'twitter',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'twitter',
             description: 'Twitter info.'
         });

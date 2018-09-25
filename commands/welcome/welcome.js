@@ -7,7 +7,7 @@ class WelcomeInfoCommand extends commando.Command
     {
         super(client,{
             name: 'welcome',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'welcome',
             description: 'Welcome info.'
         });

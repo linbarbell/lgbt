@@ -6,7 +6,7 @@ class DaddySharkCommand extends commando.Command
     {
         super(client,{
             name: 'daddyshark',
-            group: 'simple',
+            group: 'fun',
             memberName: 'daddyshark',
             description: 'do do do do'
         });
