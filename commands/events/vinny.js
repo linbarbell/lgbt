@@ -13,7 +13,7 @@ class VinnyCommand extends commando.Command
             args: [
                 {
                     key: 'date',
-                    prompt: 'What date is the event? (e.g. Friday 28 September)',
+                    prompt: 'What date is the event? (e.g. 28 September)',
                     type: 'string'
                 },
                 {
