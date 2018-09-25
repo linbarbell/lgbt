@@ -2,7 +2,7 @@ const Commando = require('discord.js-commando');
 const bot = new Commando.Client({
     commandPrefix: '.'
 });
-const TOKEN = 'super secret';
+const TOKEN = 'NDkzOTU1NDAyMTI4NDI0OTYw.DosfXw.UZe5O0Clnoi5VZtgTCWhJWHXBVs'
 
 bot.registry.registerGroup('simple', 'Simple');
 bot.registry.registerGroup('music', 'Music');
