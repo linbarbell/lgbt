@@ -7,7 +7,7 @@ class RulesCommand extends commando.Command
     {
         super(client,{
             name: 'rules',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'rules',
             description: 'Rules.'
         });

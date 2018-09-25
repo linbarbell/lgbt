@@ -7,9 +7,9 @@ class VinnyCommand extends commando.Command
     {
         super(client,{
             name: 'vinny',
-            group: 'simple',
+            group: 'events',
             memberName: 'vinny',
-            description: 'Event details.'
+            description: 'Vindicta event details'
         });
     }
 

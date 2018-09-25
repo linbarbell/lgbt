@@ -7,7 +7,7 @@ class RanksCommand extends commando.Command
     {
         super(client,{
             name: 'ranks',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'ranks',
             description: 'Ranks.'
         });

@@ -7,7 +7,7 @@ class DiscRanksCommand extends commando.Command
     {
         super(client,{
             name: 'discranks',
-            group: 'simple',
+            group: 'welcome',
             memberName: 'discranks',
             description: 'Discord ranks.'
         });
