@@ -9,6 +9,7 @@ bot.registry
     .registerGroup('welcome', 'Welcome info')
     .registerGroup('fun', 'Fun')
     .registerGroup('events', 'Events')
+    .registerGroup('room', 'Rooms')
     .registerDefaults()
     .registerCommandsIn(__dirname + '/commands')
 
