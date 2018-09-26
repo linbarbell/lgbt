@@ -18,7 +18,7 @@ class ClockCommsCommand extends commando.Command
         var myInfo = new discord.RichEmbed()
         .setTitle("Game Clock Commands")
         .setColor(0x22FF00)
-        .setDescription("!time -- Displays the current in-game time. \n \n !reset -- Displays how long till the game resets. \n \n !price <item name> -- Displays grand exchange information.")
+        .setDescription("`!time` -- Displays the current in-game time. \n \n `!reset` -- Displays how long till the game resets. \n \n `!price` <item name> -- Displays grand exchange information.")
         .setFooter("Last updated")
         .setTimestamp();
         message.channel.sendEmbed(myInfo);
