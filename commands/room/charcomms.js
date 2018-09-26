@@ -18,7 +18,7 @@ class CharCommsCommand extends commando.Command
         var myInfo = new discord.RichEmbed()
         .setTitle("Character Related Commands")
         .setColor(0x00B8FF)
-        .setDescription("!stats <username> -- Displays the stats of <username>. \n \n !gainz -- Displays xp gained across all skills for Today/Yesterday/Week \n \n !alog <username> -- Displays the adventure log of <username>.")
+        .setDescription("`!stats` <username> -- Displays the stats of <username>. \n \n `!gainz` -- Displays xp gained across all skills for Today/Yesterday/Week \n \n `!alog` <username> -- Displays the adventure log of <username>.")
         .setFooter("Last updated")
         .setTimestamp();
         message.channel.sendEmbed(myInfo);

@@ -18,7 +18,7 @@ class MiscRoomCommand extends commando.Command
         var myInfo = new discord.RichEmbed()
         .setTitle("Miscellaneous Rooms")
         .setColor(0x22FF00)
-        .setDescription("<#298258032083861504> - Post pictures of memes or anything random really. \n \n <#241345222984990721> - Stuff that isn't really suitable for general chat in here (within reason) \n \n <#322392600030085121> - Show us your lovely faces \n \n <#353281345725923328> - Pictures of fur babies in here please \n \n <#362370714688421888> - Share your food, pretty views, where you have been, anything you are up to irl basically \n \n <#331534959657615410> - Share ALL of your music links in here please, no other rooms.")
+        .setDescription("`!spotlight` -- Display what minigame is currently spotlighted. \n \n `!event` -- Displays the next event, on the RuneScape community event calendar. \n \n `!arc`  -- Displays the current arc rotations. \n \n `!geadditions` -- Displays the new items added to the GE since the previous update. \n \n `!news` -- Displays the most recent RuneScape News. \n \n `!portables` -- Displays the current locations of the Portables FC Worlds. \n \n `!help` -- Display help for a command.")
         .setFooter("Last updated")
         .setTimestamp();
         message.channel.sendEmbed(myInfo);
