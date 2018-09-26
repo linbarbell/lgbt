@@ -1,4 +1,4 @@
-const TOKEN = process.env.token || 'NDkzOTU1NDAyMTI4NDI0OTYw.DosfXw.UZe5O0Clnoi5VZtgTCWhJWHXBVs';
+const TOKEN = 'secret';
 const Commando = require('discord.js-commando');
 const http = require('http');
 const bot = new Commando.Client({
@@ -9,6 +9,7 @@ bot.registry
     .registerGroup('welcome', 'Welcome info')
     .registerGroup('fun', 'Fun')
     .registerGroup('events', 'Events')
+    .registerGroup('room', 'Rooms')
     .registerDefaults()
     .registerCommandsIn(__dirname + '/commands')
 
