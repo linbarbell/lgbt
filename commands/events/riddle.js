@@ -37,7 +37,7 @@ class RiddleCommand extends commando.Command
         .setTitle("🏰 __**RIDDLE AND SEEK**__ 🏰")
         .setColor(0x4F2095)
         .setThumbnail("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/146/world-map_1f5fa.png")
-        .addField("\u200b","**Date:** " + args.date + "\n **Time:** " + args.time + "\n **Host: **" + message.author +"\n **World:**W23")
+        .addField("\u200b","**Date:** " + args.date + "\n **Time:** " + args.time + "\n **Host: **" + message.author +"\n **World:** W23")
         .addField("\u200b",args.description, true)
         .addBlankField();
         message.channel.sendEmbed(myInfo);
