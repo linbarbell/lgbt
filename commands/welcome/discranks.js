@@ -20,7 +20,7 @@ class DiscRanksCommand extends commando.Command
         .setFooter("Last updated")
         .setTimestamp()
         .addField("🗨️ __DISCORD RANKS__ 🗨️", "These are the current roles available, for everybody to choose:\n __**PLEASE ASK A MEMBER OF THE ADMIN TEAM IF YOU WANT ANY**__")
-        .setImage("https://media.discordapp.net/attachments/308940788400652288/477930999301537826/new_roles.png");
+        .setImage("https://i.imgur.com/vSpBo55.png");
         message.channel.sendEmbed(myInfo);
     }
 }
