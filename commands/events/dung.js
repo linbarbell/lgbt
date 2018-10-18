@@ -33,7 +33,7 @@ class DungeoneeringCommand extends commando.Command
     async run(message, args)
     {
         var myInfo = new discord.RichEmbed()
-        .setTitle("📊 __**Dungeoneering**__ 📊")
+        .setTitle("🔑 __**Dungeoneering Party**__ 🔑")
         .setColor(0x00AE86)
         .setThumbnail("https://runescape.wiki/f/current/2/2d/20120810010504%21Ring_of_kinship_detail.png")
         .addField("\u200b","**Date:** " + args.date + "\n **Time:** " + args.time + "\n **Host: **" + message.author +" \n **Location: ** W23 Daemonheim")
