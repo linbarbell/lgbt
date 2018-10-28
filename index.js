@@ -1,4 +1,4 @@
-const TOKEN = process.env.token || 'NDg3Mzc4MjE3ODI1NDY4NDE3.DoF4Yw.iYd9qNfGrXLRsaZZg0r4Az8nVOM';
+const TOKEN = process.env.token || 'secret';
 const Commando = require('discord.js-commando');
 const http = require('http');
 const bot = new Commando.Client({
