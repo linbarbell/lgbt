@@ -20,7 +20,7 @@ class RolesCommand extends commando.Command
         .setFooter("Last updated")
         .setTimestamp()
         .addField("🗨️ __DISCORD ROLES__ 🗨️", "These are the current roles available, for everybody to choose:\n __**PLEASE ASK A MEMBER OF THE ADMIN TEAM IF YOU WANT ANY**__")
-        .setImage("https://media.discordapp.net/attachments/454386801667342367/506231098334773268/clan_roles.png?width=657&height=677");
+        .setImage("https://media.discordapp.net/attachments/261530348310102019/520759726867480577/unknown.png");
         message.channel.sendEmbed(myInfo);
     }
 }
