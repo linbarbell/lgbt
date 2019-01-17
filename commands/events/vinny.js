@@ -27,14 +27,16 @@ class VinnyCommand extends commando.Command
 
     async run(message, args)
     {
+        message.delete();
         var myInfo = new discord.RichEmbed()
         .setTitle("⚔️ __**VINDICTA MASS**__ ⚔️")
         .setColor(0x00AE86)
-        .setFooter("Please remember that this is completely for fun! \n Please get your kill count before the event start time, you keep your kc even though you leave GWD2!\n Keep moving! Don't stand in the flames! \n Thats all the advice you need but if you are nervous, please feel free to PM me.\n All loot will be traded to myself and split equally between attendees.", "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/138/european-castle_1f3f0.png")
+        .setFooter("Please remember that this is completely for fun! Please get your kill count before the event start time, you keep your kc even though you leave GWD2! Keep moving! Don't stand in the flames! That's all the advice you need but if you are nervous, please feel free to PM me. All loot will be traded to myself and split equally between attendees.", "https://vignette.wikia.nocookie.net/runescape2/images/4/40/Gorvek.png/revision/latest/scale-to-width-down/200?cb=20170517031043")
         .setThumbnail("https://vignette.wikia.nocookie.net/runescape2/images/4/40/Gorvek.png/revision/latest/scale-to-width-down/200?cb=20170517031043")
-        .addField("\u200b","📅 **Date:** " + args.date + "\n 🕘 **Time:** " + args.time + " game-time\n🌍 **World:** 23\n**Host:** " + message.author)
-        .addField("\u200b", "**Requirements:**\n 80 Attack\n40 Zaros kill count.", true)
-        .addField("\u200b", "**Recommended:**\n 71+ Prayer(for peity)\n90+ Herb for extremes\n Anything above barrows armour\n Any style works \n Heart tele tabs \n BoB filled with food.", true)
+        .addField("\u200b","📅 **Date:** " + args.date + "\n🕘 **Time:** " + args.time + " game-time\n🌍 **World:** 23\n**Host:** " + message.author)
+        .addField("\u200b", "[Strategies for Vindicta (wiki)](https://runescape.wiki/w/Vindicta/Strategies)")
+        .addField("\u200b", "**Requirements:**\n80 Attack\n40 Zaros kill count", true)
+        .addField("\u200b", "**Recommended:**\n71+ Prayer (for peity)\n90+ Herb for extremes\nAnything above barrows armour\nAny style works \nHeart tele tabs \nBoB filled with food.", true)
         message.channel.sendEmbed(myInfo);
     }
 }
