@@ -29,6 +29,7 @@ class WelcomeAllCommand extends commando.Command
 
     async run(message, args)
     {
+        message.delete();
         welcome.run(message)
             .then(rules.run(message))
             .then(ranks.run(message))
