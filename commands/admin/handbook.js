@@ -33,6 +33,7 @@ class WelcomeAllCommand extends commando.Command
 
     async run(message, args)
     {
+        message.delete();
         welcome.run(message)
             .then(duties.run(message))
             .then(roles.run(message))
