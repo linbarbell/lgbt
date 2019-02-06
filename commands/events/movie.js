@@ -56,7 +56,7 @@ class MovieCommand extends commando.Command
         .addField("\u200b","**Date:** " + args.date + "\n**Time:** " + args.time + "\n**Host: **" + message.author)
         .addField("\u200b", args.description)
         .addField("\u200b", movieChoices)
-        .addField("\u200b", "Here is the link so you can make an account now ahead of time:\nhttps://lets.rabb.it/QKy70VoqBP");
+        .addField("\u200b", "Here is the link so you can make an account now ahead of time:\nhttps://www.rabb.it/s/ol54mw");
         message.channel.sendEmbed(myInfo).then((message) => {
             movieEmojis.forEach((emojiName) => {
                 var emoji = message.client.emojis.find(clientEmoji => clientEmoji.toString() === emojiName.toString()) || emojiName;
