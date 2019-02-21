@@ -4,9 +4,9 @@ const RulesCommand = require('./rules.js');
 const RanksCommand = require('./ranks.js');
 const RolesCommand = require('./roles.js');
 const CitadelCommand = require('./citadel.js');
-const TwitterCommand = require('./twitter.js');
+const SocialMediaCommand = require('./social-media.js');
 const CalendarCommand = require('./calendar.js');
-var welcome, rules, ranks, roles, citadel, twitter, calendar;
+var welcome, rules, ranks, roles, citadel, socialmedia, calendar;
 
 class WelcomeAllCommand extends commando.Command
 {
@@ -23,7 +23,7 @@ class WelcomeAllCommand extends commando.Command
         ranks = new RanksCommand(client);
         roles = new RolesCommand(client);
         citadel = new CitadelCommand(client);
-        twitter = new TwitterCommand(client);
+        socialmedia = new SocialMediaCommand(client);
         calendar = new CalendarCommand(client);
     }
 
@@ -35,7 +35,7 @@ class WelcomeAllCommand extends commando.Command
             .then(ranks.run(message))
             .then(roles.run(message))
             .then(citadel.run(message))
-            .then(twitter.run(message))
+            .then(socialmedia.run(message))
             .then(calendar.run(message));
     }
 }
