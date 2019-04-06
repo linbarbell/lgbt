@@ -36,7 +36,7 @@ class VinnyCommand extends commando.Command
         .addField("\u200b","📅 **Date:** " + args.date + "\n🕘 **Time:** " + args.time + " game-time\n🌍 **World:** 23\n**Host:** " + message.author)
         .addField("\u200b", "[Strategies for Vindicta (wiki)](https://runescape.wiki/w/Vindicta/Strategies)")
         .addField("\u200b", "**Requirements:**\n80 Attack\n40 Zaros kill count", true)
-        .addField("\u200b", "**Recommended:**\n71+ Prayer (for peity)\n90+ Herb for extremes\nAnything above barrows armour\nAny style works \nHeart tele tabs \nBoB filled with food.", true)
+        .addField("\u200b", "**Recommended:**\n70+ Prayer (for piety)\n90+ Herb for extremes\nAnything above barrows armour\nAny style works \nHeart tele tabs \nBoB filled with food.", true)
         message.channel.sendEmbed(myInfo);
     }
 }
